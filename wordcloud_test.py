@@ -148,7 +148,6 @@ def generate_wordcloud_from_files(title, file_paths, twitter, stopwords, font_pa
     plt.show()
 
 def main():
-    # 한글 폰트 경로 (Windows 예: 맑은 고딕)
     font_path = "C:\\Windows\\Fonts\\malgun.ttf"
     
     # 사용자 사전 및 불용어 파일 경로 설정
@@ -170,9 +169,9 @@ def main():
         {"title": "블로거들이 추천하는 서울 명소", "files": ["./data_files/서울명소.txt"]},
         {"title": "연설문 분석", "files": ["./data_files/노무현대통령.txt"]},
         {"title": "대통령 신년 연설문", 
-         "files": ["./data_files/박근혜대통령취임사_2013.txt",
-                   "./data_files/박근혜대통령신년연설문_2014_01_06.txt",
-                   "./data_files/박근혜대통령신년연설문_2015_01_12.txt"]}
+         "files": ["./data_files/대통령취임사_2013.txt",
+                   "./data_files/대통령신년연설문_2014_01_06.txt",
+                   "./data_files/대통령신년연설문_2015_01_12.txt"]}
     ]
     
     # data_files/masks 폴더에서 마스크 파일 경로 리스트 생성 (png, jpg, jpeg)
