@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Mar 11 09:15:57 2025
-
-@author: Roh Jun Seok
-"""
-
 import urllib.request
 from soynlp import DoublespaceLineCorpus
 from soynlp.word import WordExtractor
